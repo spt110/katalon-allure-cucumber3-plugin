@@ -1,8 +1,3 @@
-# [DEPRICATED]
-## Please follow https://github.com/allure-framework/allure-java
-Katalon Allure Cucumber3 Plugin
-=====================
-
 This plugin allows to generate allure xml reports after cucumber-jvm tests execution.
 
 ## Example project
