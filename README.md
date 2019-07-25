@@ -10,7 +10,9 @@ Example projects is located at: https://docs.katalon.com/katalon-studio/docs/run
 ## Release
  [katalon-allure-cucumber3-plugin.jar](https://github.com/spt110/katalon-allure-cucumber3-plugin/wiki/Release)
 
-## Configure katalon-allure-cucumber3-plugin plugin Go to Project > Setting > Externall Libraries
+## Configure katalon-allure-cucumber3-plugin 
+ Go to Project > Setting > Externall Libraries
+ 
 ![project-setting](project-setting.png)
 
 ## Generate allure-results
