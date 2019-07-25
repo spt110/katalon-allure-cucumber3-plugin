@@ -7,7 +7,7 @@ This plugin allows to generate allure xml reports after cucumber-jvm tests execu
 
 ## Example project
 Example projects is located at: https://github.com/spt110/allure-cucumber3-plugin
-
+## Release https://github.com/spt110/katalon-allure-cucumber3-plugin/wiki/Release
 ## Usage
 Simply add **allure-cucumber3-plugin** as dependency to your project and add **build** section with adaptor plugin: 
 ```
