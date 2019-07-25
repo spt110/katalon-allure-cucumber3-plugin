@@ -10,10 +10,10 @@ Example projects is located at: https://docs.katalon.com/katalon-studio/docs/run
 ## Release
  [katalon-allure-cucumber3-plugin.jar](https://github.com/spt110/katalon-allure-cucumber3-plugin/wiki/Release)
 
-##Configure katalon-allure-cucumber3-plugin plugin Go to Project > Setting > Externall Libraries
+## Configure katalon-allure-cucumber3-plugin plugin Go to Project > Setting > Externall Libraries
 ![project-setting](project-setting.png)
 
-##generate allure-results
+## Generate allure-results
 Example: [Run all Feature files](https://docs.katalon.com/katalon-studio/docs/running-cucumber-features-file.html#from-a-feature-file) in a specified file/folder, generate multi Cucumber reports with XML, JSON, HTML pretty format,allure-results, and copy to a specified folder
 ```
 package myCucumber
