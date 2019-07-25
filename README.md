@@ -6,10 +6,15 @@ Allure Cucumber-JVM Plugin
 This plugin allows to generate allure xml reports after cucumber-jvm tests execution.
 
 ## Example project
-Example projects is located at: https://github.com/spt110/allure-cucumber3-plugin
-## Release https://github.com/spt110/katalon-allure-cucumber3-plugin/wiki/Release
-## Usage
-Simply add **allure-cucumber3-plugin** as dependency to your project and add **build** section with adaptor plugin: 
+Example projects is located at: https://github.com/spt110/katalon-allure-cucumber3-plugin
+## Release
+ [katalon-allure-cucumber3-plugin.jar](https://github.com/spt110/katalon-allure-cucumber3-plugin/wiki/Release)
+
+##Configure katalon-allure-cucumber3-plugin plugin Go to Project > Setting > Externall Libraries
+![project-setting](project-setting.png)
+
+##generate allure-results
+Example: [Run all Feature files](https://docs.katalon.com/katalon-studio/docs/running-cucumber-features-file.html#from-a-feature-file) in a specified file/folder, generate multi Cucumber reports with XML, JSON, HTML pretty format,allure-results, and copy to a specified folder
 ```
 package myCucumber
 
@@ -18,27 +23,15 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import AllureCucumber3Jvm
+import io.qameta.allure.cucumber3jvm.katalon.AllureCucumber3Jvm
 @RunWith(Cucumber.class)
-@CucumberOptions(features="Include/features", glue="", plugin = ["pretty",
+@CucumberOptions(features="Include/features/Web UI Tests/Tests/sellerMgmt/invoiceMgmt/billInvoice/Import Bill Tests.feature", glue="", plugin = ["pretty",
 	"junit:report-cucumber/cucumber.xml",
 	"html:report-cucumber/cucumber-html-report",
 	"json:report-cucumber/cucumber.json",
-	"AllureCucumber3Jvm"
+	"io.qameta.allure.cucumber3jvm.katalon.AllureCucumber3Jvm"
 ])
-public class BillInvoiceCucumberRunner {
+public class MyCucumberRunner {
 
-	//		@Before
-	//		public void before() {
-	////			AllureReporter.applyFailureCallback(FailureCallback.class);
-	//		}
-	//
-	//
-	//
-	//	@After
-	//	public void after() {
-	//		int result = AllureReporter.getFailureCallbackResult();
-	//		Assert.assertEquals(10, result);
-	//	}
 }
 ```
