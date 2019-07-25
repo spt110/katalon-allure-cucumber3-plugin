@@ -1,3 +1,7 @@
+# [DEPRICATED]
+## Please follow https://github.com/allure-framework/allure-java/tree/master/allure-cucumber3-jvm
+
+
 This plugin allows to generate allure xml reports after cucumber-jvm tests execution.
 
 ## Example project
